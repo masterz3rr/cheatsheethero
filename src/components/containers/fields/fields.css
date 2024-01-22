@@ -1,0 +1,8 @@
+.title {
+    background-color: #00164d;
+    border-radius: 5px;
+}
+
+.fields:hover {
+    color: #00164d;
+}
