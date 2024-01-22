@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import langList from '../../../constants/languagesData'
-import TabsLanguage from './TabsLanguage';
+import TabsLanguage from '../LanguageSection/TabsLanguage';
 
 
 
-const Languages = () => {
+const LanguagesSection = () => {
   const [item, setItems] = useState(langList);
 
   const menuItems = [...new Set(langList.map((val) => val.category))]
@@ -50,4 +50,4 @@ const Languages = () => {
   )
 }
 
-export default Languages
+export default LanguagesSection

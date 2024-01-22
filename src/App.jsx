@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/containers/Header/Header'
+import LanguagesSection from './components/containers/LanguageSection/LanguagesSection'
 import Fields from './components/containers/fields/Fields'
-import Languages from './components/containers/languages/languages'
 
 function App() {
  
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header/>
       <Fields/>
-      <Languages/>
+      <LanguagesSection/>
     </>
   )
 }
